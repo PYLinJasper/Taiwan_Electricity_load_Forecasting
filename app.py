@@ -14,3 +14,7 @@ if __name__ == '__main__':
     print("No problem ")
 
     args = parser.parse_args()
+
+    trainingData = pd.read_csv(args.training)
+
+    print(trainingData)
