@@ -1,4 +1,3 @@
-![download](https://user-images.githubusercontent.com/48174852/112023218-00bd4700-8b6e-11eb-8860-c8debcc368c1.png)
 # Taiwan_Electricity_load_Forecasting
 Using data mining and ML technique
 
@@ -22,5 +21,6 @@ Using data mining and ML technique
 - 我們訓練共採用前面所提到的**三個城市之最高、最低溫與前一天的備轉容量共7個特徵值，將七個特徵值包成一天，再將七天包成一個輸入值**
 - 將輸入值丟入模型訓練後，我們預期模型能**輸出一整個禮拜的預估數值**
   - 資料前處理與模型訓練示意圖![截圖 2021-03-23 上午12 13 30](https://user-images.githubusercontent.com/48174852/112022291-2138d180-8b6d-11eb-9444-785d65d08deb.png)
+- 使用與RMSE(Root Mean Square Error)等次方損失函數的MAE(Mean Absolute Error)
 
-
+- 模型訓練成果![download](https://user-images.githubusercontent.com/48174852/112023218-00bd4700-8b6e-11eb-8860-c8debcc368c1.png)
